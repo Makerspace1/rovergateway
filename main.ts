@@ -24,7 +24,8 @@ let sendBytes = 0
 let maxMessageLength = 0
 maxMessageLength = 18
 radio.setGroup(255)
-radio.setFrequencyBand(50)
+radio.setFrequencyBand(83)
+radio.setTransmitPower(7)
 serial.setRxBufferSize(128)
 serial.setTxBufferSize(128)
 serial.writeLine("GW: Rover gateway started")
